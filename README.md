@@ -4,9 +4,7 @@
 The goal of this assignment was to follow a hypothetical clients comp as closely as possible to create a functional web page.
 
 ### Design Comp:
-![Image of design comp]
-(images/comp.jpg)
+![comp](https://user-images.githubusercontent.com/44077214/49384933-62292580-f6d9-11e8-93d2-f991f40c827c.jpg)
 
 ### Screengrab of finished project:
-![Screengrab of completed site]
-(images/site-screengrab-1.jpg)
+![site-screengrab-1](https://user-images.githubusercontent.com/44077214/49384930-5f2e3500-f6d9-11e8-8f79-5452f2dd408c.jpg)
