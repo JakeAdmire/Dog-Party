@@ -1,0 +1,204 @@
+/*GENERAL*/
+
+/*hsl(195.43 ,45.45% ,45.29%); DARK BLUE
+hsl(184.34 ,61.48% ,73.53%); LIGHT BLUE*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 1800px;
+  border: 15px solid white;
+  font-family: Open Sans;
+}
+
+.clearfix:after {
+    content: ' ';
+    display: table;
+    clear: both;
+}
+
+img.cir-icon {
+  border-radius: 50%;
+  border: 5px solid hsl(184.34 ,61.48% ,73.53%);
+  width: 225px;
+  display: block;
+  margin: auto;
+}
+
+div.head {
+  height: 680px;
+  background: url("images/park.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: 50% 70%;
+}
+
+.screen .div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*NAVIGATION*/
+
+div.nav {
+  background: hsl(184.34 ,61.48% ,73.53%);
+  height: 80px;
+  border: 3px solid black;
+  border-bottom: 3px solid hsl(195.43 ,45.45% ,45.29%);
+}
+
+#nav-icon {
+  width: 60px;
+  display: inline;
+  margin-left: 20px;
+  margin-top: 8px;
+}
+
+p.nav-buttons {
+  display: inline-block;
+  float: right;
+  margin-left: 16px;
+  margin-right: 20px;
+  font-size: 22px;
+  padding: 5px;
+}
+
+p.nav-buttons:hover {
+  background-color: hsl(184.34 ,61.48% ,50%);
+  border-radius: 3px;
+}
+
+/*SECTION*/
+
+p#headline {
+  text-align: center;
+  font-size: 45px;
+  color: white;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+/*FORM*/
+
+div.form {
+  width: 500px;
+  margin: auto;
+  margin-top: 38px;
+  font-size: 20px;
+}
+
+label {
+  color: white;
+  float: left;
+}
+
+input#input-text {
+  width: 100%;
+  height: 60px;
+  padding: 30px 20px;
+  margin-bottom: 18px;
+  display: block;
+  border: 1px solid black;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: Open Sans;
+}
+
+input#input-submit {
+  width: 100%;
+  height: 60px;
+  background-color: hsl(184.34 ,61.48% ,73.53%);
+  color: black;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  font-size: 25px;
+  font-family: Open Sans;
+}
+
+input#input-submit:hover {
+  background-color: hsl(184 ,36% ,50%);
+}
+
+/*COLUMNS*/
+
+div.col {
+  display: inline-block;
+  float: left;
+  width: 400px;
+  height: 800px;
+  margin-top: 25px;
+  margin-left: 32px;
+  margin-right: 32px;
+  text-align: center;
+  position: relative;
+}
+
+p.col-buttons {
+  font-size: 20px;
+  color: white;
+  padding: 15px;
+  margin-top: 110px;
+  background-color: hsl(195.43 ,45.45% ,45.29%);
+  width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  position: absolute;
+  top: 592px;
+}
+
+p.col-buttons:hover {
+  background-color: hsl(195.43 ,45.45% ,20%);
+}
+
+h3 {
+  font-size: 30px;
+}
+
+p.ipsum {
+  font-size: 21px;
+  text-align: left;
+  margin-top: 50px;
+}
+
+/*FOOTER*/
+
+footer {
+  height: 230px;
+  margin-top: 15px;
+  background: hsl(195.43 ,45.45% ,45.29%);
+}
+
+.social-media {
+  height: 230px;
+  width: 325px;
+  margin: auto;
+  padding-top: 30px;
+  text-align: center;
+  color: white;
+}
+
+.media {
+  width: 70px;
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.media:hover {
+  background-color: hsl(195.43 ,45.45% ,20%);
+}
+
+#twitter {
+  width: 80px;
+}
+
+#advert {
+  font-size: 22px;
+}
