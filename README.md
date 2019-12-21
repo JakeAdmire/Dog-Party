@@ -3,7 +3,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/JakeAdmire/Dog-Party">
-    <img src="images/dog2-sq.jpg" alt="Logo" width="80" height="80">
+    <img src="images/dog2-sq.jpg" alt="Logo" width="150" height="150">
   </a>
   <h1 align="center">Dog Party</h1>
   <p align="center">
